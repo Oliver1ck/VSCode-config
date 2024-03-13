@@ -1,5 +1,4 @@
 # VSCODE config
-save extensions
 ## Save extionsions
 ```bash
 code --list-extensions > extensions.txt
