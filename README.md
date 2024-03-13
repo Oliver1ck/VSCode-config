@@ -5,5 +5,5 @@ code --list-extensions > extensions.txt
 ```
 ## install extensions in folder where location this file
 ```bash
-cat extensions.txt | xargs -L 1 code --install-extension 
+foreach ($line in Get-Content extensions.txt) { code --install-extension $line }
 ```
