@@ -1,0 +1,53 @@
+{
+    "workbench.iconTheme": "material-icon-theme",
+    "files.autoSave": "afterDelay",
+    "explorer.compactFolders": false,
+    "liveSassCompile.settings.formats": [
+      {
+        "format": "expanded",
+        "extensionName": ".css",
+        "savePath": "./css/"
+      }
+    ],
+    "prettier.useEditorConfig": false,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "git.autofetch": true,
+    "git.confirmSync": false,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "prettier.printWidth": 120,
+    "workbench.colorCustomizations": {
+      "terminal.background": "#222222",
+      "terminal.foreground": "#BDBDBD",
+      "terminalCursor.background": "#BDBDBD",
+      "terminalCursor.foreground": "#BDBDBD",
+      "terminal.ansiBlack": "#222222",
+      "terminal.ansiBlue": "#80DEEA",
+      "terminal.ansiBrightBlack": "#757575",
+      "terminal.ansiBrightBlue": "#80DEEA",
+      "terminal.ansiBrightCyan": "#4DD0E1",
+      "terminal.ansiBrightGreen": "#26C6DA",
+      "terminal.ansiBrightMagenta": "#B3EBF2",
+      "terminal.ansiBrightRed": "#0097A7",
+      "terminal.ansiBrightWhite": "#EEEEEE",
+      "terminal.ansiBrightYellow": "#00BCD4",
+      "terminal.ansiCyan": "#4DD0E1",
+      "terminal.ansiGreen": "#26C6DA",
+      "terminal.ansiMagenta": "#B3EBF2",
+      "terminal.ansiRed": "#0097A7",
+      "terminal.ansiWhite": "#BDBDBD",
+      "terminal.ansiYellow": "#00BCD4"
+    },
+    "gitlens.graph.minimap.enabled": false,
+    "indentRainbow.ignoreLinePatterns": ["/[ \t]* [*]/g", "/[ \t]+[/]{2}/g"],
+    "indentRainbow.ignoreErrorLanguages": ["*"],
+    "indentRainbow.colorOnWhiteSpaceOnly": true,
+    "discord.detailsEditing": "Editing ",
+    "discord.detailsDebugging": "Debugging ",
+    "discord.lowerDetailsDebugging": "Debugging: ",
+    "discord.smallImage": "",
+    "codeium.enableConfig": {
+      "*": true,
+      "markdown": true
+    }
+  }
+  
