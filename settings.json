@@ -2,12 +2,22 @@
     "workbench.iconTheme": "material-icon-theme",
     "files.autoSave": "afterDelay",
     "explorer.compactFolders": false,
+    "liveSassCompile.settings.showOutputWindowOn": "None",
+    "liveSassCompile.settings.useNewCompiler": true,
     "liveSassCompile.settings.formats": [
       {
         "format": "expanded",
         "extensionName": ".css",
-        "savePath": "./css/"
-      }
+        "savePath": "./css",
+        "savePathReplacementPairs": "./css"
+      },
+    {
+      "format": "compressed",
+      "extensionName": "-min.css",
+      "savePath": "./css",
+      "savePathReplacementPairs": "./css",
+      "generateMap": false
+    }
     ],
     "prettier.useEditorConfig": false,
     "editor.defaultFormatter": "esbenp.prettier-vscode",
@@ -41,10 +51,6 @@
     "indentRainbow.ignoreLinePatterns": ["/[ \t]* [*]/g", "/[ \t]+[/]{2}/g"],
     "indentRainbow.ignoreErrorLanguages": ["*"],
     "indentRainbow.colorOnWhiteSpaceOnly": true,
-    "discord.detailsEditing": "Editing ",
-    "discord.detailsDebugging": "Debugging ",
-    "discord.lowerDetailsDebugging": "Debugging: ",
-    "discord.smallImage": "",
     "codeium.enableConfig": {
       "*": true,
       "markdown": true
