@@ -1,4 +1,6 @@
 codeium.codeium
+cweijan.dbclient-jdbc
+cweijan.vscode-postgresql-client2
 dbaeumer.vscode-eslint
 eamodio.gitlens
 esbenp.prettier-vscode
@@ -17,4 +19,5 @@ oderwat.indent-rainbow
 pkief.material-icon-theme
 ritwickdey.liveserver
 sibiraj-s.vscode-scss-formatter
+thomascsd.vscode-readme-pattern
 waderyan.gitblame
