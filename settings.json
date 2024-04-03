@@ -54,6 +54,12 @@
     "codeium.enableConfig": {
       "*": true,
       "markdown": true
-    }
+    },
+    "discord.enabled": true,
+    "discord.detailsDebugging": "Debugging {empty}",
+    "discord.detailsIdling": "Idling {empty}",
+    "discord.removeRemoteRepository": true,
+    "discord.removeDetails": true,
+    "discord.removeLowerDetails": true,
   }
   
