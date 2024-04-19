@@ -8,14 +8,14 @@
       {
         "format": "expanded",
         "extensionName": ".css",
-        "savePath": "./css",
-        "savePathReplacementPairs": "./css"
+        "savePath": "./css/",
+        "savePathReplacementPairs": "./css/"
       },
     {
       "format": "compressed",
       "extensionName": "-min.css",
-      "savePath": "./css",
-      "savePathReplacementPairs": "./css",
+      "savePath": "./css/",
+      "savePathReplacementPairs": "./css/",
       "generateMap": false
     }
     ],
@@ -61,5 +61,8 @@
     "discord.removeRemoteRepository": true,
     "discord.removeDetails": true,
     "discord.removeLowerDetails": true,
+    "prettier.tabWidth": 2,
+    "prettier.singleQuote": false,
+    "prettier.jsxSingleQuote": false,
+    "prettier.bracketSpacing": true,
   }
-  
