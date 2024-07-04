@@ -1,68 +1,110 @@
 {
-    "workbench.iconTheme": "material-icon-theme",
-    "files.autoSave": "afterDelay",
-    "explorer.compactFolders": false,
-    "liveSassCompile.settings.showOutputWindowOn": "None",
-    "liveSassCompile.settings.useNewCompiler": true,
-    "liveSassCompile.settings.formats": [
-      {
-        "format": "expanded",
-        "extensionName": ".css",
-        "savePath": "./css/",
-        "savePathReplacementPairs": "./css/"
-      },
+  "workbench.iconTheme": "material-icon-theme",
+  "files.autoSave": "afterDelay",
+  "explorer.compactFolders": false,
+  "liveSassCompile.settings.showOutputWindowOn": "None",
+  "liveSassCompile.settings.useNewCompiler": true,
+  "liveSassCompile.settings.formats": [
+    // {
+    //   "format": "expanded",
+    //   "extensionName": ".css",
+    //   "savePath": "./main_page_domer/static/css/",
+    //   "savePathReplacementPairs": "./main_page_domer/static/css/"
+    // },
+    // {
+    //   "format": "compressed",
+    //   "extensionName": "-min.css",
+    //   "savePath": "./main_page_domer/static/css/",
+    //   "savePathReplacementPairs": "./main_page_domer/static/css/",
+    //   "generateMap": false
+    // },
+    {
+      "format": "expanded",
+      "extensionName": ".css",
+      "savePath": "./main/static/css/",
+      "savePathReplacementPairs": "./main/static/css/"
+    },
     {
       "format": "compressed",
       "extensionName": "-min.css",
-      "savePath": "./css/",
-      "savePathReplacementPairs": "./css/",
+      "savePath": "./main/static/css/",
+      "savePathReplacementPairs": "./main/static/css/",
       "generateMap": false
     }
-    ],
-    "prettier.useEditorConfig": false,
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "git.autofetch": true,
-    "git.confirmSync": false,
-    "javascript.updateImportsOnFileMove.enabled": "always",
-    "prettier.printWidth": 120,
-    "workbench.colorCustomizations": {
-      "terminal.background": "#222222",
-      "terminal.foreground": "#BDBDBD",
-      "terminalCursor.background": "#BDBDBD",
-      "terminalCursor.foreground": "#BDBDBD",
-      "terminal.ansiBlack": "#222222",
-      "terminal.ansiBlue": "#80DEEA",
-      "terminal.ansiBrightBlack": "#757575",
-      "terminal.ansiBrightBlue": "#80DEEA",
-      "terminal.ansiBrightCyan": "#4DD0E1",
-      "terminal.ansiBrightGreen": "#26C6DA",
-      "terminal.ansiBrightMagenta": "#B3EBF2",
-      "terminal.ansiBrightRed": "#0097A7",
-      "terminal.ansiBrightWhite": "#EEEEEE",
-      "terminal.ansiBrightYellow": "#00BCD4",
-      "terminal.ansiCyan": "#4DD0E1",
-      "terminal.ansiGreen": "#26C6DA",
-      "terminal.ansiMagenta": "#B3EBF2",
-      "terminal.ansiRed": "#0097A7",
-      "terminal.ansiWhite": "#BDBDBD",
-      "terminal.ansiYellow": "#00BCD4"
-    },
-    "gitlens.graph.minimap.enabled": false,
-    "indentRainbow.ignoreLinePatterns": ["/[ \t]* [*]/g", "/[ \t]+[/]{2}/g"],
-    "indentRainbow.ignoreErrorLanguages": ["*"],
-    "indentRainbow.colorOnWhiteSpaceOnly": true,
-    "codeium.enableConfig": {
-      "*": true,
-      "markdown": true
-    },
-    "discord.enabled": true,
-    "discord.detailsDebugging": "Debugging {empty}",
-    "discord.detailsIdling": "Idling {empty}",
-    "discord.removeRemoteRepository": true,
-    "discord.removeDetails": true,
-    "discord.removeLowerDetails": true,
-    "prettier.tabWidth": 2,
-    "prettier.singleQuote": false,
-    "prettier.jsxSingleQuote": false,
-    "prettier.bracketSpacing": true,
+  ],
+  "prettier.useEditorConfig": false,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "git.autofetch": true,
+  "git.confirmSync": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "prettier.printWidth": 120,
+  "workbench.colorCustomizations": {
+    "terminal.background": "#222222",
+    "terminal.foreground": "#BDBDBD",
+    "terminalCursor.background": "#BDBDBD",
+    "terminalCursor.foreground": "#BDBDBD",
+    "terminal.ansiBlack": "#222222",
+    "terminal.ansiBlue": "#80DEEA",
+    "terminal.ansiBrightBlack": "#757575",
+    "terminal.ansiBrightBlue": "#80DEEA",
+    "terminal.ansiBrightCyan": "#4DD0E1",
+    "terminal.ansiBrightGreen": "#26C6DA",
+    "terminal.ansiBrightMagenta": "#B3EBF2",
+    "terminal.ansiBrightRed": "#0097A7",
+    "terminal.ansiBrightWhite": "#EEEEEE",
+    "terminal.ansiBrightYellow": "#00BCD4",
+    "terminal.ansiCyan": "#4DD0E1",
+    "terminal.ansiGreen": "#26C6DA",
+    "terminal.ansiMagenta": "#B3EBF2",
+    "terminal.ansiRed": "#0097A7",
+    "terminal.ansiWhite": "#BDBDBD",
+    "terminal.ansiYellow": "#00BCD4"
+  },
+  "indentRainbow.ignoreLinePatterns": ["/[ \t]* [*]/g", "/[ \t]+[/]{2}/g"],
+  "indentRainbow.ignoreErrorLanguages": ["*"],
+  "indentRainbow.colorOnWhiteSpaceOnly": true,
+  "codeium.enableConfig": {
+    "*": true,
+    "markdown": true
+  },
+  "prettier.tabWidth": 2,
+  "prettier.singleQuote": false,
+  "prettier.jsxSingleQuote": false,
+  "prettier.bracketSpacing": true,
+  "files.associations": {
+    // Определяет ассоциации файлов для различных типов файлов, например, связывает файлы *.html в папке templates с типом "django-html".
+    "**/*.html": "html",
+    "**/templates/*.html": "django-html",
+    "**/templates/*/*.html": "django-html",
+    "**/templates/*/*/*.html": "django-html",
+    "**/templates/*": "django-txt",
+    "**/requirements{/**,*}.{txt,in}": "pip-requirements"
+  },
+  "django.snippets.exclude": ["cms", "wagtail"], // Исключает сниппеты для CMS "cms" и "wagtail".
+
+  "[django-html]": {
+    // Определяет настройки, которые применяются только к файлам "django-html".
+    "editor.defaultFormatter": "esbenp.prettier-vscode", // Устанавливает Prettier как средство форматирования по умолчанию.
+    "breadcrumbs.showClasses": true, // Включает отображение классов в "хлебных крошках".
+    "editor.quickSuggestions": {
+      // Включает быстрые подсказки для различных элементов кода.
+      "other": true,
+      "comments": true,
+      "strings": true
+    }
+  },
+  "emmet.includeLanguages": {
+    // Добавляет поддержку Emmet для файлов "django-html" как для обычных HTML-файлов.
+    "django-html": "html",
+  },
+  "diffEditor.ignoreTrimWhitespace": false,
+  "svg.preview.mode": "svg",
+  "gitlens.graph.layout": "editor",
+  "gitlens.graph.minimap.enabled": false,
+  "remote.SSH.defaultForwardedPorts": [
+    
+  ],
+  "remote.SSH.remotePlatform": {
+    "217.197.116.182": "linux"
   }
+}
