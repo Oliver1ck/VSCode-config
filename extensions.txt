@@ -11,11 +11,14 @@ formulahendry.auto-complete-tag
 formulahendry.auto-rename-tag
 formulahendry.code-runner
 glenn2223.live-sass
+golang.go
+golang.go-nightly
 jock.svg
 ms-azuretools.vscode-docker
 ms-python.debugpy
 ms-python.python
 ms-python.vscode-pylance
+ms-vscode-remote.remote-containers
 ms-vscode-remote.remote-ssh
 ms-vscode-remote.remote-ssh-edit
 ms-vscode-remote.remote-wsl
