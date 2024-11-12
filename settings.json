@@ -5,30 +5,17 @@
   "liveSassCompile.settings.showOutputWindowOn": "None",
   "liveSassCompile.settings.useNewCompiler": true,
   "liveSassCompile.settings.formats": [
-    // {
-    //   "format": "expanded",
-    //   "extensionName": ".css",
-    //   "savePath": "./main_page_domer/static/css/",
-    //   "savePathReplacementPairs": "./main_page_domer/static/css/"
-    // },
-    // {
-    //   "format": "compressed",
-    //   "extensionName": "-min.css",
-    //   "savePath": "./main_page_domer/static/css/",
-    //   "savePathReplacementPairs": "./main_page_domer/static/css/",
-    //   "generateMap": false
-    // },
     {
       "format": "expanded",
       "extensionName": ".css",
-      "savePath": "./main/static/css/",
-      "savePathReplacementPairs": "./main/static/css/"
+      "savePath": "./css/",
+      "savePathReplacementPairs": "./css/"
     },
     {
       "format": "compressed",
       "extensionName": "-min.css",
-      "savePath": "./main/static/css/",
-      "savePathReplacementPairs": "./main/static/css/",
+      "savePath": "./css/",
+      "savePathReplacementPairs": "./css/",
       "generateMap": false
     }
   ],
@@ -37,7 +24,7 @@
   "git.autofetch": true,
   "git.confirmSync": false,
   "javascript.updateImportsOnFileMove.enabled": "always",
-  "prettier.printWidth": 120,
+  "prettier.printWidth": 80,
   "workbench.colorCustomizations": {
     "terminal.background": "#222222",
     "terminal.foreground": "#BDBDBD",
@@ -65,7 +52,8 @@
   "indentRainbow.colorOnWhiteSpaceOnly": true,
   "codeium.enableConfig": {
     "*": true,
-    "markdown": true
+    "markdown": true,
+    "django-html": true
   },
   "prettier.tabWidth": 2,
   "prettier.singleQuote": false,
@@ -95,16 +83,21 @@
   },
   "emmet.includeLanguages": {
     // Добавляет поддержку Emmet для файлов "django-html" как для обычных HTML-файлов.
-    "django-html": "html",
+    "django-html": "html"
   },
   "diffEditor.ignoreTrimWhitespace": false,
   "svg.preview.mode": "svg",
   "gitlens.graph.layout": "editor",
-  "gitlens.graph.minimap.enabled": false,
-  "remote.SSH.defaultForwardedPorts": [
-    
-  ],
+  "remote.SSH.defaultForwardedPorts": [],
   "remote.SSH.remotePlatform": {
-    "217.197.116.182": "linux"
-  }
+    "217.197.116.182": "linux",
+    "217.197.116.151": "linux"
+  },
+  "security.workspace.trust.untrustedFiles": "open",
+  "editor.tabSize": 2,
+  "git.openRepositoryInParentFolders": "never",
+  "gitlens.graph.minimap.enabled": false,
+  "database-client.autoSync": true,
+  "prettier.insertPragma": true,
+  "prettier.semi": false,
 }
