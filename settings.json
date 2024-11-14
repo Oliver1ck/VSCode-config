@@ -19,12 +19,9 @@
       "generateMap": false
     }
   ],
-  "prettier.useEditorConfig": false,
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
   "git.autofetch": true,
   "git.confirmSync": false,
   "javascript.updateImportsOnFileMove.enabled": "always",
-  "prettier.printWidth": 80,
   "workbench.colorCustomizations": {
     "terminal.background": "#222222",
     "terminal.foreground": "#BDBDBD",
@@ -55,10 +52,14 @@
     "markdown": true,
     "django-html": true
   },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
   "prettier.tabWidth": 2,
+  "prettier.printWidth": 80,
   "prettier.singleQuote": false,
   "prettier.jsxSingleQuote": false,
   "prettier.bracketSpacing": true,
+  "prettier.insertPragma": true,
+  "prettier.semi": false,
   "files.associations": {
     // Определяет ассоциации файлов для различных типов файлов, например, связывает файлы *.html в папке templates с типом "django-html".
     "**/*.html": "html",
@@ -98,6 +99,4 @@
   "git.openRepositoryInParentFolders": "never",
   "gitlens.graph.minimap.enabled": false,
   "database-client.autoSync": true,
-  "prettier.insertPragma": true,
-  "prettier.semi": false,
 }
