@@ -2,23 +2,6 @@
   "workbench.iconTheme": "material-icon-theme",
   "files.autoSave": "afterDelay",
   "explorer.compactFolders": false,
-  "liveSassCompile.settings.showOutputWindowOn": "None",
-  "liveSassCompile.settings.useNewCompiler": true,
-  "liveSassCompile.settings.formats": [
-    {
-      "format": "expanded",
-      "extensionName": ".css",
-      "savePath": "./css/",
-      "savePathReplacementPairs": "./css/"
-    },
-    {
-      "format": "compressed",
-      "extensionName": "-min.css",
-      "savePath": "./css/",
-      "savePathReplacementPairs": "./css/",
-      "generateMap": false
-    }
-  ],
   "git.autofetch": true,
   "git.confirmSync": false,
   "javascript.updateImportsOnFileMove.enabled": "always",
