@@ -1,85 +1,87 @@
 {
-  "workbench.iconTheme": "material-icon-theme",
-  "files.autoSave": "afterDelay",
-  "explorer.compactFolders": false,
-  "git.autofetch": true,
-  "git.confirmSync": false,
-  "javascript.updateImportsOnFileMove.enabled": "always",
-  "workbench.colorCustomizations": {
-    "terminal.background": "#222222",
-    "terminal.foreground": "#BDBDBD",
-    "terminalCursor.background": "#BDBDBD",
-    "terminalCursor.foreground": "#BDBDBD",
-    "terminal.ansiBlack": "#222222",
-    "terminal.ansiBlue": "#80DEEA",
-    "terminal.ansiBrightBlack": "#757575",
-    "terminal.ansiBrightBlue": "#80DEEA",
-    "terminal.ansiBrightCyan": "#4DD0E1",
-    "terminal.ansiBrightGreen": "#26C6DA",
-    "terminal.ansiBrightMagenta": "#B3EBF2",
-    "terminal.ansiBrightRed": "#0097A7",
-    "terminal.ansiBrightWhite": "#EEEEEE",
-    "terminal.ansiBrightYellow": "#00BCD4",
-    "terminal.ansiCyan": "#4DD0E1",
-    "terminal.ansiGreen": "#26C6DA",
-    "terminal.ansiMagenta": "#B3EBF2",
-    "terminal.ansiRed": "#0097A7",
-    "terminal.ansiWhite": "#BDBDBD",
-    "terminal.ansiYellow": "#00BCD4"
-  },
-  "indentRainbow.ignoreLinePatterns": ["/[ \t]* [*]/g", "/[ \t]+[/]{2}/g"],
-  "indentRainbow.ignoreErrorLanguages": ["*"],
-  "indentRainbow.colorOnWhiteSpaceOnly": true,
-  "codeium.enableConfig": {
-    "*": true,
-    "markdown": true,
-    "django-html": true
-  },
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "prettier.tabWidth": 2,
-  "prettier.printWidth": 80,
-  "prettier.singleQuote": false,
-  "prettier.jsxSingleQuote": false,
-  "prettier.bracketSpacing": true,
-  "prettier.insertPragma": true,
-  "prettier.semi": false,
-  "files.associations": {
-    // Определяет ассоциации файлов для различных типов файлов, например, связывает файлы *.html в папке templates с типом "django-html".
-    "**/*.html": "html",
-    "**/templates/*.html": "django-html",
-    "**/templates/*/*.html": "django-html",
-    "**/templates/*/*/*.html": "django-html",
-    "**/templates/*": "django-txt",
-    "**/requirements{/**,*}.{txt,in}": "pip-requirements"
-  },
-  "django.snippets.exclude": ["cms", "wagtail"], // Исключает сниппеты для CMS "cms" и "wagtail".
-
-  "[django-html]": {
-    // Определяет настройки, которые применяются только к файлам "django-html".
-    "editor.defaultFormatter": "esbenp.prettier-vscode", // Устанавливает Prettier как средство форматирования по умолчанию.
-    "breadcrumbs.showClasses": true, // Включает отображение классов в "хлебных крошках".
-    "editor.quickSuggestions": {
-      // Включает быстрые подсказки для различных элементов кода.
-      "other": true,
-      "comments": true,
-      "strings": true
-    }
-  },
-  "emmet.includeLanguages": {
-    // Добавляет поддержку Emmet для файлов "django-html" как для обычных HTML-файлов.
-    "django-html": "html"
-  },
-  "diffEditor.ignoreTrimWhitespace": false,
-  "svg.preview.mode": "svg",
-  "gitlens.graph.layout": "editor",
-  "remote.SSH.defaultForwardedPorts": [],
-  "remote.SSH.remotePlatform": {
-    "217.197.116.182": "linux",
-    "217.197.116.151": "linux"
-  },
-  "security.workspace.trust.untrustedFiles": "open",
-  "editor.tabSize": 2,
-  "git.openRepositoryInParentFolders": "never",
-  "gitlens.graph.minimap.enabled": false,
-  "database-client.autoSync": true,
-}
+    "workbench.iconTheme": "material-icon-theme",
+    "files.autoSave": "afterDelay",
+    "explorer.compactFolders": false,
+    "git.autofetch": true,
+    "git.confirmSync": false,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "workbench.colorCustomizations": {
+      "terminal.background": "#222222",
+      "terminal.foreground": "#BDBDBD",
+      "terminalCursor.background": "#BDBDBD",
+      "terminalCursor.foreground": "#BDBDBD",
+      "terminal.ansiBlack": "#222222",
+      "terminal.ansiBlue": "#80DEEA",
+      "terminal.ansiBrightBlack": "#757575",
+      "terminal.ansiBrightBlue": "#80DEEA",
+      "terminal.ansiBrightCyan": "#4DD0E1",
+      "terminal.ansiBrightGreen": "#26C6DA",
+      "terminal.ansiBrightMagenta": "#B3EBF2",
+      "terminal.ansiBrightRed": "#0097A7",
+      "terminal.ansiBrightWhite": "#EEEEEE",
+      "terminal.ansiBrightYellow": "#00BCD4",
+      "terminal.ansiCyan": "#4DD0E1",
+      "terminal.ansiGreen": "#26C6DA",
+      "terminal.ansiMagenta": "#B3EBF2",
+      "terminal.ansiRed": "#0097A7",
+      "terminal.ansiWhite": "#BDBDBD",
+      "terminal.ansiYellow": "#00BCD4"
+    },
+    "indentRainbow.ignoreLinePatterns": ["/[ \t]* [*]/g", "/[ \t]+[/]{2}/g"],
+    "indentRainbow.ignoreErrorLanguages": ["*"],
+    "indentRainbow.colorOnWhiteSpaceOnly": true,
+    "codeium.enableConfig": {
+      "*": true,
+      "markdown": true,
+      "django-html": true
+    },
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "prettier.tabWidth": 2,
+    "prettier.printWidth": 80,
+    "prettier.singleQuote": false,
+    "prettier.jsxSingleQuote": false,
+    "prettier.bracketSpacing": true,
+    "prettier.insertPragma": true,
+    "prettier.semi": false,
+    "prettier.configPath": "",
+    "files.associations": {
+      // Определяет ассоциации файлов для различных типов файлов, например, связывает файлы *.html в папке templates с типом "django-html".
+      "**/*.html": "html",
+      "**/templates/*.html": "django-html",
+      "**/templates/*/*.html": "django-html",
+      "**/templates/*/*/*.html": "django-html",
+      "**/templates/*": "django-txt",
+      "**/requirements{/**,*}.{txt,in}": "pip-requirements"
+    },
+    "django.snippets.exclude": ["cms", "wagtail"], // Исключает сниппеты для CMS "cms" и "wagtail".
+  
+    "[django-html]": {
+      // Определяет настройки, которые применяются только к файлам "django-html".
+      "editor.defaultFormatter": "esbenp.prettier-vscode", // Устанавливает Prettier как средство форматирования по умолчанию.
+      "breadcrumbs.showClasses": true, // Включает отображение классов в "хлебных крошках".
+      "editor.quickSuggestions": {
+        // Включает быстрые подсказки для различных элементов кода.
+        "other": true,
+        "comments": true,
+        "strings": true
+      }
+    },
+    "emmet.includeLanguages": {
+      // Добавляет поддержку Emmet для файлов "django-html" как для обычных HTML-файлов.
+      "django-html": "html"
+    },
+    "diffEditor.ignoreTrimWhitespace": false,
+    "svg.preview.mode": "svg",
+    "gitlens.graph.layout": "editor",
+    "remote.SSH.defaultForwardedPorts": [],
+    "remote.SSH.remotePlatform": {
+      "217.197.116.182": "linux",
+      "217.197.116.151": "linux"
+    },
+    "security.workspace.trust.untrustedFiles": "open",
+    "editor.tabSize": 2,
+    "git.openRepositoryInParentFolders": "never",
+    "gitlens.graph.minimap.enabled": false,
+    "database-client.autoSync": true,
+    "prettier.requireConfig": true,
+  }
