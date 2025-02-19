@@ -1,6 +1,7 @@
 astro-build.astro-vscode
 batisteo.vscode-django
 codeium.codeium
+cweijan.dbclient-jdbc
 cweijan.vscode-postgresql-client2
 dbaeumer.vscode-eslint
 eamodio.gitlens
@@ -13,7 +14,6 @@ golang.go
 jock.svg
 ms-azuretools.vscode-docker
 ms-python.debugpy
-ms-python.isort
 ms-python.python
 ms-python.vscode-pylance
 ms-vscode-remote.remote-ssh
@@ -21,6 +21,7 @@ ms-vscode-remote.remote-ssh-edit
 ms-vscode-remote.remote-wsl
 ms-vscode.remote-explorer
 oderwat.indent-rainbow
+phoenisx.cssvar
 pkief.material-icon-theme
 rangav.vscode-thunder-client
 ritwickdey.liveserver
