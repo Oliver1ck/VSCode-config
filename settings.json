@@ -38,7 +38,7 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "prettier.tabWidth": 2,
     "prettier.printWidth": 80,
-    "prettier.singleQuote": false,
+    "prettier.singleQuote": true,
     "prettier.jsxSingleQuote": false,
     "prettier.bracketSpacing": true,
     "prettier.insertPragma": true,
@@ -83,5 +83,5 @@
     "git.openRepositoryInParentFolders": "never",
     "gitlens.graph.minimap.enabled": false,
     "database-client.autoSync": true,
-    "prettier.requireConfig": true,
+    "prettier.requireConfig": false,
   }
