@@ -42,7 +42,6 @@
     "prettier.jsxSingleQuote": false,
     "prettier.bracketSpacing": true,
     "prettier.insertPragma": true,
-    "prettier.semi": false,
     "prettier.configPath": "",
     "files.associations": {
       // Определяет ассоциации файлов для различных типов файлов, например, связывает файлы *.html в папке templates с типом "django-html".
@@ -76,7 +75,8 @@
     "remote.SSH.defaultForwardedPorts": [],
     "remote.SSH.remotePlatform": {
       "217.197.116.182": "linux",
-      "217.197.116.151": "linux"
+      "217.197.116.151": "linux",
+      "217.197.116.192": "linux"
     },
     "security.workspace.trust.untrustedFiles": "open",
     "editor.tabSize": 2,
@@ -84,4 +84,10 @@
     "gitlens.graph.minimap.enabled": false,
     "database-client.autoSync": true,
     "prettier.requireConfig": false,
+    "prettier.semi": false,
+    "javascript.preferences.quoteStyle": "single",
+    "typescript.preferences.quoteStyle": "single",
+    "javascript.format.semicolons": "remove",
+    "typescript.format.semicolons": "remove",
+    "typescript.updateImportsOnFileMove.enabled": "always",
   }
