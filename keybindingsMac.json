@@ -5,11 +5,7 @@
     "when": "editorTextFocus && !editorReadonly"
   },
   {
-    "key": "ctrl+cmd+l",
-    "command": "prettier.forceFormatDocument"
-},
-{
-    "key": "ctrl+`",
+    "key": "cmd+`",
     "command": "expandLineSelection",
     "when": "textInputFocus"
 },
@@ -31,4 +27,14 @@
   "key": "cmd+f",
   "command": "explorer.newFile"
 },
+{
+  "key": "ctrl+cmd+l",
+  "command": "editor.action.formatDocument",
+  "when": "editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly && !inCompositeEditor"
+},
+{
+  "key": "shift+alt+f",
+  "command": "-editor.action.formatDocument",
+  "when": "editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly && !inCompositeEditor"
+}
 ]
