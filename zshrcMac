@@ -53,11 +53,14 @@ source $ZSH/oh-my-zsh.sh
 
 # Добавляем python3.13, pip3 и другие бинарники из Frameworks в PATH
 export PATH="/Library/Frameworks/Python.framework/Versions/3.13/bin:$PATH"
+# go
+export PATH="$PATH:$(go env GOPATH)/bin"
 
 ###############################################################
 # 4) Твои текущие настройки (VS Code, pnpm и т. д.)
 ###############################################################
-
+# Postgres
+export PATH="/opt/homebrew/opt/postgresql@18/bin:$PATH"
 # VS Code CLI (если требуется помогать открывать файлы через code)
 export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/"
 
@@ -68,6 +71,12 @@ case ":$PATH:" in
   *) export PATH="$PNPM_HOME:$PATH" ;;
 esac
 # pnpm end
+
+# flutter
+export PATH=$HOME/.gem/bin:$PATH
+export PATH=$HOME/development/flutter/bin:$PATH
+# flutter end
+
 
 ###############################################################
 # 5) Алиасы и удобства
@@ -106,3 +115,4 @@ setopt SHARE_HISTORY           # разделять историю между в
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+export PATH="/opt/homebrew/opt/postgresql@18/bin:$PATH"
