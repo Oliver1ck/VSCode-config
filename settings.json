@@ -1,10 +1,11 @@
+/** @format */
+
 {
   "workbench.iconTheme": "material-icon-theme",
   "files.autoSave": "afterDelay",
   "explorer.compactFolders": false,
   "git.autofetch": true,
   "git.confirmSync": false,
-  "javascript.updateImportsOnFileMove.enabled": "always",
   "workbench.colorCustomizations": {
     "terminal.background": "#222222",
     "terminal.foreground": "#BDBDBD",
@@ -26,7 +27,7 @@
     "terminal.ansiRed": "#0097A7",
     "terminal.ansiWhite": "#BDBDBD",
     "terminal.ansiYellow": "#00BCD4",
-    "terminal.integrated.fontFamily": "MesloLGS NF"
+    "terminal.integrated.fontFamily": "MesloLGS NF",
   },
   "indentRainbow.ignoreLinePatterns": ["/[ \t]* [*]/g", "/[ \t]+[/]{2}/g"],
   "indentRainbow.ignoreErrorLanguages": ["*"],
@@ -34,7 +35,7 @@
   "codeium.enableConfig": {
     "*": true,
     "markdown": true,
-    "django-html": true
+    "django-html": true,
   },
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "prettier.enable": true,
@@ -52,7 +53,7 @@
     "**/templates/*/*.html": "django-html",
     "**/templates/*/*/*.html": "django-html",
     "**/templates/*": "django-txt",
-    "**/requirements{/**,*}.{txt,in}": "pip-requirements"
+    "**/requirements{/**,*}.{txt,in}": "pip-requirements",
   },
   "django.snippets.exclude": ["cms", "wagtail"], // Исключает сниппеты для CMS "cms" и "wagtail".
 
@@ -64,51 +65,64 @@
       // Включает быстрые подсказки для различных элементов кода.
       "other": true,
       "comments": true,
-      "strings": true
-    }
+      "strings": true,
+    },
   },
   "emmet.includeLanguages": {
     // Добавляет поддержку Emmet для файлов "django-html" как для обычных HTML-файлов.
-    "django-html": "html"
+    "django-html": "html",
   },
   "diffEditor.ignoreTrimWhitespace": false,
   "svg.preview.mode": "svg",
-  "gitlens.graph.layout": "editor",
   "remote.SSH.defaultForwardedPorts": [],
   "remote.SSH.remotePlatform": {
     "217.197.116.182": "linux",
     "217.197.116.151": "linux",
-    "217.197.116.192": "linux"
+    "217.197.116.192": "linux",
   },
   "[go]": {
+    "editor.tabSize": 4,
     "editor.defaultFormatter": "golang.go",
     "editor.formatOnSave": true,
     "editor.insertSpaces": true,
     "editor.codeActionsOnSave": {
       "source.organizeImports": "explicit",
-      "source.fixAll": "explicit"
-    }
+      "source.fixAll": "explicit",
+    },
   },
   "security.workspace.trust.untrustedFiles": "open",
   "editor.tabSize": 2,
   "git.openRepositoryInParentFolders": "never",
-  "gitlens.graph.minimap.enabled": false,
   "database-client.autoSync": true,
   "prettier.requireConfig": false,
   "prettier.semi": false,
-  "javascript.preferences.quoteStyle": "single",
-  "typescript.preferences.quoteStyle": "single",
-  "javascript.format.semicolons": "remove",
-  "typescript.format.semicolons": "remove",
-  "typescript.updateImportsOnFileMove.enabled": "always",
   "terminal.integrated.fontFamily": "MesloLGS NF",
   "editor.accessibilitySupport": "off",
-  "gitlens.ai.model": "gitkraken",
-  "gitlens.ai.gitkraken.model": "gemini:gemini-2.0-flash",
   "editor.cursorStyle": "line",
   "terminal.integrated.cursorStyle": "line",
   "go.toolsManagement.autoUpdate": true,
-  "dart.flutterSdkPath": "/Users/oliver1ck/development/flutter",
+  "chat.instructionsFilesLocations": {
+    ".github/instructions": true,
+  },
   "editor.fontFamily": "Menlo, Monaco, 'Courier New', monospace, MesloLGS NF",
-  "terminal.integrated.fontLigatures.enabled": true
+  "terminal.integrated.fontLigatures.enabled": true,
+  "github.copilot.nextEditSuggestions.enabled": true,
+
+  // proxy settings
+  //poland
+  "http.proxy": "http://NUvsqJ:gWe86P@193.38.229.45:8000",
+  "http.proxyStrictSSL": false,
+  "http.proxySupport": "on",
+  // uk
+  // "http.proxy": "http://566YY4:g2kdg2@196.18.9.103:8000",
+  // "http.proxyStrictSSL": false,
+  // "http.proxySupport": "on",
+  "files.watcherExclude": {
+    "**/.nuxt/**": true,
+    "**/.output/**": true,
+    "**/node_modules/*/**": true,
+  },
+  "editor.inlineSuggest.edits.showCollapsed": true,
+  "chat.viewSessions.orientation": "stacked",
+  "editor.minimap.enabled": false,
 }
