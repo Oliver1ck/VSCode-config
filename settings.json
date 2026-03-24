@@ -110,11 +110,11 @@
 
   // proxy settings
   //poland
-  "http.proxy": "http://NUvsqJ:gWe86P@193.38.229.45:8000",
+  "http.proxy": "http://,
   "http.proxyStrictSSL": false,
   "http.proxySupport": "on",
   // uk
-  // "http.proxy": "http://566YY4:g2kdg2@196.18.9.103:8000",
+  // "http.proxy": "http://",
   // "http.proxyStrictSSL": false,
   // "http.proxySupport": "on",
   "files.watcherExclude": {
